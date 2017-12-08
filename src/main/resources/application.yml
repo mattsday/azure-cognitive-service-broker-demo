@@ -1,0 +1,21 @@
+azure-services:
+  secret: changeme
+  uri: https://westeurope.api.cognitive.microsoft.com/text/analytics/v2.0/sentiment
+  services:
+  - name: azure-cognitive-text
+    id: e7fab5ff-f005-4084-90b0-4c1fe184a928
+    description: Azure Text Analytics
+    metadata:
+      displayName: Azure Cognitive Analytics
+      imageUrl: https://msdnshared.blob.core.windows.net/media/2017/03/Azure-Cognitive-Services-e1489079006258.png
+      longDescription: Azure Cognitive text analytics service
+      providerDisplayName: Pivotal
+      documentationUrl: https://www.azure.com/
+      supportUrl: https://www.azure.com/
+    bindable: true
+    plan_updateable: false
+    plans:
+    - name: 5k
+      id: e7fab5ff-f005-4084-90a0-4c1fe184a928
+      description: 5000 API requests per month
+      free: true
